@@ -88,10 +88,6 @@ function Survey() {
     fetchSurvey();
   }, []);
 
-  useEffect(() => {
-    console.log(answers);
-  });
-
   if (error) {
     return <span>Oups il y a eu un problème</span>;
   }
